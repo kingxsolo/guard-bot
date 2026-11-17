@@ -1,0 +1,18 @@
+{
+  "name": "whatsapp-guard-bot",
+  "version": "1.0.0",
+  "description": "بوت حماية واتساب — طرد البوتات وأجهزة الربط فوراً + حذف رسائل جهات الاتصال + فحص كل 10 ثواني",
+  "type": "module",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@hapi/boom": "^9.1.3",
+    "@whiskeysockets/baileys": "7.0.0-rc14",
+    "pino": "^9.6.0"
+  }
+}
